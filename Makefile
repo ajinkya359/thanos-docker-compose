@@ -1,4 +1,4 @@
-THANOS_SOURCE ?= ../thanos
+THANOS_SOURCE ?= /home/ajinkya/thanos
 COMPOSE_FILE ?= docker-compose.yml
 
 GOPATH            ?= $(shell go env GOPATH)
